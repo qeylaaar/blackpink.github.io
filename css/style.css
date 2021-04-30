@@ -1,0 +1,172 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding: 5px 0;
+	background-color: lightpink;
+}
+.medsos ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding: 15px 0;
+	color: lightpink;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	color: black;
+	padding: 25px 18px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: lightpink;
+	color: white;
+}
+.active {
+	background-color: lightpink;
+	color: black; 
+}
+.banner {
+	height: 50vh;
+	background-image: url(../img/bannerr.jpg);
+	background-size: cover;
+}
+.banner h2 {
+	color: lightpink;
+	z-index: 1;
+	padding: 15px 25px;
+	border: 5px solid black;height:40vh;
+	border: 1px solid lightpink;
+	background-color: lightpink;
+	color: white;
+}
+.album {
+	height: 190vh;
+	padding:50px 0;
+	margin: 0 auto;
+	background-color: lightpink;
+}
+.gambar {
+	width: 80%;
+	margin: 0 auto;
+}
+.container {
+	color: white;
+}
+section {
+	padding:116px 0;
+}
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+}
+.gambar {
+    width: 300px;
+    height: 150px;
+    padding: 20px 0;
+    margin: 20px;
+}
+img.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about h3 {
+	color: white;
+}
+.about {
+	background-color: lightpink;
+}
+.about p {
+	color: black;
+	word-spacing: 4px;
+	line-height: 25px;
+}
+.image {
+	height:40vh;
+	border: 1px solid lightpink;
+	background-color: lightpink;
+	color: white;
+	margin-left: 370px;
+	margin-right: 150px;
+}
+img.tengah {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.aboutt {
+	margin:40px;
+	margin-right: 190px;
+}
+.support {
+	height:40vh;
+	border: 1px solid lightpink;
+	background-color: lightpink;
+	color: white;
+}
+.box {
+	border: 1px solid;
+}
+.picture {
+	margin: 0 auto;
+	margin-left: 370px;
+	margin-right: 190px;
+}
+footer {
+	height: 41px;
+	padding:30px 0;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.bg-loader {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-loader .loader {
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    border-top-color: lightpink;
+    border-right-color: lightpink;
+    border-bottom-color: lightpink;
+    animation: puterin .5s linear infinite;
+}
+@keyframes puterin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
